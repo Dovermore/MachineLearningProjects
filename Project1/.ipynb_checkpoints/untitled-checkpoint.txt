@@ -1,0 +1,5 @@
+We can see roughly from the summary diagram of each of the prediction scores and the information gains, that a **high accuracy** corresponds normally to high total/average/max information gain.
+This is generally true except for two special cases. 
+The first special case is the breast-cancer dataset. This dataset have a 0.76 accuracy, not too bad, but have very low information gain throughout all columns.
+After brief examination of the dataset and confusion matrix, we can see the dataset have only two classes one of which taked upto 73% instances of the whole dataset. Meaning a Zero-R baseline will achieve 73% accuracy (i.e. with only the prior distribution), and our 76% accuracy is not much better than this baseline. This explains why with such low information gain the classifier still achieved moderatly high accuracy.
+The second exception is the primary-tumor dataset, where exactly the opposite happens, we have very high information gain accompanied with a low accuracy.
