@@ -1,0 +1,9 @@
+[submodule "bert"]
+	path = bert
+	url = https://github.com/google-research/bert.git
+[submodule "text-preprocessing-techniques"]
+	path = text-preprocessing-techniques
+	url = https://github.com/Deffro/text-preprocessing-techniques
+[submodule "DESlib"]
+	path = DESlib
+	url = https://github.com/scikit-learn-contrib/DESlib

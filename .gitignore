@@ -1,0 +1,12 @@
+bert/*
+
+**/.idea
+
+**/.ipynb_checkpoints
+
+glue
+
+*.csv
+*.tsv
+
+data/
