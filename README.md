@@ -9,4 +9,4 @@
         - total: 7/7
     - Part-B score:
         - report: 12/12
-        - total: 20/20
+    - total: 20/20
